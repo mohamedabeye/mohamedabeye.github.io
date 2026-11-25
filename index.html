@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mohamed Abdillahi Abeye</title>
+<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/mohamedabeye?s=64">
+<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/mohamedabeye?s=180">
 <style>
   :root{--ink:#14202b;--muted:#5b6670;--blue:#2f6db5;--teal:#1b8a7a;--bg:#f4f7fa;--line:#e3e7eb;--navy:#0f2236}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -57,6 +59,11 @@
   .contact h2{justify-content:center;color:#fff}
   .contact p{color:#b9ccd8;margin-bottom:22px}
   .contact .cta a{background:#fff;color:var(--navy)}
+  .contactgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:900px;margin:0 auto}
+  .cbox{background:#fff;color:var(--navy);border-radius:12px;padding:16px 12px;display:flex;flex-direction:column;gap:4px}
+  .cbox span{font-size:13px;color:var(--muted);word-break:break-all}
+  .cbox:hover{outline:3px solid #5FD3C6}
+  @media(max-width:760px){.contactgrid{grid-template-columns:1fr 1fr}}
   footer{text-align:center;padding:20px;color:var(--muted);font-size:13px}
   @media(max-width:760px){h1{font-size:32px}.grid2{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.job{grid-template-columns:1fr;gap:4px}.links{display:none}}
 </style>
@@ -149,11 +156,11 @@
 <section id="contact" class="contact"><div class="wrap">
   <h2>Get in touch</h2>
   <p>Open to research collaboration on forecasting and public-sector data.</p>
-  <div class="cta">
-    <a class="btn" href="mailto:mohamedaabeye@gmail.com">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/mohamedabeye" target="_blank">LinkedIn</a>
-    <a class="btn" href="https://github.com/mohamedabeye" target="_blank">GitHub</a>
-    <a class="btn" href="https://orcid.org/0009-0009-7274-0714" target="_blank">ORCID</a>
+  <div class="contactgrid">
+    <a class="cbox" href="mailto:mohamedaabeye@gmail.com" target="_blank" rel="noopener"><b>Email</b><span>mohamedaabeye@gmail.com</span></a>
+    <a class="cbox" href="https://www.linkedin.com/in/mohamedabeye" target="_blank" rel="noopener"><b>LinkedIn</b><span>in/mohamedabeye</span></a>
+    <a class="cbox" href="https://github.com/mohamedabeye" target="_blank" rel="noopener"><b>GitHub</b><span>github.com/mohamedabeye</span></a>
+    <a class="cbox" href="https://orcid.org/0009-0009-7274-0714" target="_blank" rel="noopener"><b>ORCID</b><span>0009-0009-7274-0714</span></a>
   </div>
 </div></section>
 
